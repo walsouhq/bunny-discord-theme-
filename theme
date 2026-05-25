@@ -3,6 +3,7 @@
   "author": "ChatGPT",
   "description": "Everything fully black with visible background",
   "spec": 2,
+
   "semanticColors": {
     "BACKGROUND_PRIMARY": ["#000000", "#000000"],
     "BACKGROUND_SECONDARY": ["#000000", "#000000"],
@@ -10,25 +11,24 @@
     "BACKGROUND_TERTIARY": ["#000000", "#000000"],
     "BACKGROUND_ACCENT": ["#000000", "#000000"],
     "BACKGROUND_FLOATING": ["#000000", "#000000"],
+
     "CHAT_BACKGROUND": ["#000000", "#000000"],
     "CHANNELTEXTAREA_BACKGROUND": ["#000000", "#000000"],
+
     "CARD_PRIMARY_BG": ["#000000", "#000000"],
     "CARD_SECONDARY_BG": ["#000000", "#000000"],
 
     "HEADER_PRIMARY": ["#D0D0D0", "#D0D0D0"],
     "HEADER_SECONDARY": ["#7A7A7A", "#7A7A7A"],
+
     "TEXT_NORMAL": ["#9A9A9A", "#9A9A9A"],
     "TEXT_MUTED": ["#5A5A5A", "#5A5A5A"],
+
     "INTERACTIVE_NORMAL": ["#8A8A8A", "#8A8A8A"],
     "INTERACTIVE_HOVER": ["#B0B0B0", "#B0B0B0"],
-    "INTERACTIVE_ACTIVE": ["#FFFFFF", "#FFFFFF"],
-
-    // Ajouts pour forcer le panneau des membres en noir pur
-    "MEMBER_LIST_BACKGROUND": ["#000000", "#000000"],
-    "MEMBER_LIST_ITEM": ["#000000", "#000000"],
-    "BACKGROUND_MODIFIER_SELECTED": ["#000000", "#000000"],
-    "BACKGROUND_MODIFIER_HOVER": ["#0A0A0A", "#0A0A0A"]
+    "INTERACTIVE_ACTIVE": ["#FFFFFF", "#FFFFFF"]
   },
+
   "rawColors": {
     "PRIMARY_100": "#E0E0E0",
     "PRIMARY_200": "#C0C0C0",
@@ -41,6 +41,7 @@
     "PRIMARY_900": "#000000",
 
     "BLACK": "#000000",
+
     "BRAND_500": "#000000",
     "BACKGROUND_MENTIONED": "#000000",
     "BACKGROUND_MODIFIER_ACCENT": "#000000",
@@ -48,11 +49,13 @@
     "RED_400": "#FF5555",
     "RED_500": "#FF4444"
   },
+
   "background": {
     "url": "https://i.ibb.co/xMBLPFc/warmth.png",
     "blur": 0,
     "alpha": 0.82
   },
+
   "fonts": {
     "normal": "gg sans"
   }
