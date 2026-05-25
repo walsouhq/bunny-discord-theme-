@@ -1,62 +1,50 @@
 {
-  "name": "Vixtra Black AMOLED",
+  "name": "Vixtra AMOLED",
   "author": "ChatGPT",
-  "description": "Vixtra AMOLED black with white messages only",
+  "description": "Pure black Vixtra with warmth background",
   "spec": 2,
 
   "semanticColors": {
-    "BACKGROUND_PRIMARY": ["#000000", "#000000"],
-    "BACKGROUND_SECONDARY": ["#000000", "#000000"],
-    "BACKGROUND_SECONDARY_ALT": ["#000000", "#000000"],
-    "BACKGROUND_TERTIARY": ["#000000", "#000000"],
-    "BACKGROUND_ACCENT": ["#000000", "#000000"],
-    "BACKGROUND_FLOATING": ["#000000", "#000000"],
+    "BACKGROUND_PRIMARY": ["#00000000", "#00000000"],
+    "BACKGROUND_SECONDARY": ["#00000000", "#00000000"],
+    "BACKGROUND_SECONDARY_ALT": ["#00000000", "#00000000"],
+    "BACKGROUND_TERTIARY": ["#00000000", "#00000000"],
+    "BACKGROUND_ACCENT": ["#00000000", "#00000000"],
+    "BACKGROUND_FLOATING": ["#000000CC", "#000000CC"],
 
-    "CHANNELTEXTAREA_BACKGROUND": ["#000000", "#000000"],
+    "CHAT_BACKGROUND": ["#00000000", "#00000000"],
+    "CHANNELTEXTAREA_BACKGROUND": ["#000000CC", "#000000CC"],
 
-    "TEXT_NORMAL": ["#D0D0D0", "#D0D0D0"],
-    "TEXT_MUTED": ["#8A8A8A", "#8A8A8A"],
+    "HEADER_PRIMARY": ["#FFFFFF", "#FFFFFF"],
+    "HEADER_SECONDARY": ["#A0A0A0", "#A0A0A0"],
 
-    "HEADER_PRIMARY": ["#D0D0D0", "#D0D0D0"],
-    "HEADER_SECONDARY": ["#9A9A9A", "#9A9A9A"],
+    "TEXT_NORMAL": ["#B5B5B5", "#B5B5B5"],
+    "TEXT_MUTED": ["#707070", "#707070"],
 
-    "INTERACTIVE_NORMAL": ["#B0B0B0", "#B0B0B0"],
-    "INTERACTIVE_HOVER": ["#D0D0D0", "#D0D0D0"],
-    "INTERACTIVE_ACTIVE": ["#FFFFFF", "#FFFFFF"],
-
-    "CHAT_BACKGROUND": ["#000000", "#000000"]
+    "INTERACTIVE_NORMAL": ["#909090", "#909090"],
+    "INTERACTIVE_HOVER": ["#B0B0B0", "#B0B0B0"],
+    "INTERACTIVE_ACTIVE": ["#FFFFFF", "#FFFFFF"]
   },
 
   "rawColors": {
     "PRIMARY_100": "#FFFFFF",
-    "PRIMARY_200": "#E0E0E0",
-    "PRIMARY_300": "#C0C0C0",
-    "PRIMARY_400": "#A0A0A0",
-    "PRIMARY_500": "#808080",
-    "PRIMARY_600": "#606060",
-    "PRIMARY_700": "#404040",
-    "PRIMARY_800": "#202020",
+    "PRIMARY_200": "#D0D0D0",
+    "PRIMARY_300": "#B0B0B0",
+    "PRIMARY_400": "#909090",
+    "PRIMARY_500": "#707070",
+    "PRIMARY_600": "#505050",
+    "PRIMARY_700": "#303030",
+    "PRIMARY_800": "#101010",
     "PRIMARY_900": "#000000",
 
     "BRAND_500": "#000000",
-
-    "RED_400": "#FFFFFF",
-    "RED_500": "#FFFFFF"
+    "RED_400": "#FF5555",
+    "RED_500": "#FF4444"
   },
 
   "background": {
     "url": "https://i.ibb.co/xMBLPFc/warmth.png",
     "blur": 0,
-    "alpha": 0.18
-  },
-
-  "plus": {
-    "customOverlays": {
-      "messageTextColor": "#FFFFFF",
-      "messageBackground": "transparent",
-      "appBackground": "#000000",
-      "sidebarBackground": "#000000",
-      "chatBackground": "#000000"
-    }
+    "alpha": 1
   }
 }
