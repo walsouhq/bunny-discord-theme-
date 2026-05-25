@@ -1,7 +1,7 @@
 {
-  "name": "Vixtra True Black",
+  "name": "Vixtra Absolute Black",
   "author": "ChatGPT",
-  "description": "True AMOLED black with working background",
+  "description": "Pure black UI with brighter background image",
   "spec": 2,
 
   "semanticColors": {
@@ -15,13 +15,13 @@
     "CHAT_BACKGROUND": ["#000000", "#000000"],
     "CHANNELTEXTAREA_BACKGROUND": ["#000000", "#000000"],
 
-    "HEADER_PRIMARY": ["#D0D0D0", "#D0D0D0"],
-    "HEADER_SECONDARY": ["#7A7A7A", "#7A7A7A"],
+    "HEADER_PRIMARY": ["#CFCFCF", "#CFCFCF"],
+    "HEADER_SECONDARY": ["#8A8A8A", "#8A8A8A"],
 
     "TEXT_NORMAL": ["#9A9A9A", "#9A9A9A"],
-    "TEXT_MUTED": ["#5A5A5A", "#5A5A5A"],
+    "TEXT_MUTED": ["#5F5F5F", "#5F5F5F"],
 
-    "INTERACTIVE_NORMAL": ["#8A8A8A", "#8A8A8A"],
+    "INTERACTIVE_NORMAL": ["#8F8F8F", "#8F8F8F"],
     "INTERACTIVE_HOVER": ["#B0B0B0", "#B0B0B0"],
     "INTERACTIVE_ACTIVE": ["#FFFFFF", "#FFFFFF"],
 
@@ -30,12 +30,12 @@
 
   "rawColors": {
     "PRIMARY_100": "#E0E0E0",
-    "PRIMARY_200": "#C0C0C0",
-    "PRIMARY_300": "#A0A0A0",
-    "PRIMARY_400": "#808080",
-    "PRIMARY_500": "#606060",
-    "PRIMARY_600": "#404040",
-    "PRIMARY_700": "#202020",
+    "PRIMARY_200": "#C8C8C8",
+    "PRIMARY_300": "#A8A8A8",
+    "PRIMARY_400": "#888888",
+    "PRIMARY_500": "#686868",
+    "PRIMARY_600": "#484848",
+    "PRIMARY_700": "#282828",
     "PRIMARY_800": "#101010",
     "PRIMARY_900": "#000000",
 
@@ -48,7 +48,7 @@
   "background": {
     "url": "https://i.ibb.co/xMBLPFc/warmth.png",
     "blur": 0,
-    "alpha": 0.22
+    "alpha": 0.65
   },
 
   "fonts": {
