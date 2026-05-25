@@ -1,7 +1,7 @@
 {
   "name": "Vixtra Pitch Black",
   "author": "ChatGPT",
-  "description": "Full black UI + white text - Chat background kept",
+  "description": "Full black UI with white text - Chat background kept",
   "spec": 2,
   "semanticColors": {
     "BACKGROUND_PRIMARY": ["#000000", "#000000"],
@@ -12,32 +12,23 @@
     "BACKGROUND_FLOATING": ["#000000", "#000000"],
     "BACKGROUND_MOBILE_PRIMARY": ["#000000", "#000000"],
     "BACKGROUND_MOBILE_SECONDARY": ["#000000", "#000000"],
-
     "CHAT_BACKGROUND": ["#000000", "#000000"],
     "CHANNELTEXTAREA_BACKGROUND": ["#000000", "#000000"],
-
     "CARD_PRIMARY_BG": ["#000000", "#000000"],
     "CARD_SECONDARY_BG": ["#000000", "#000000"],
-
     "MEMBER_LIST_BACKGROUND": ["#000000", "#000000"],
     "SERVER_LIST_BACKGROUND": ["#000000", "#000000"],
-
     "BACKGROUND_MODIFIER_HOVER": ["#0A0A0A", "#0A0A0A"],
     "BACKGROUND_MODIFIER_ACTIVE": ["#000000", "#000000"],
     "BACKGROUND_MODIFIER_SELECTED": ["#0F0F0F", "#0F0F0F"],
-
     "HEADER_PRIMARY": ["#FFFFFF", "#FFFFFF"],
     "HEADER_SECONDARY": ["#B0B0B0", "#B0B0B0"],
-
     "TEXT_NORMAL": ["#E0E0E0", "#E0E0E0"],
     "TEXT_MUTED": ["#A0A0A0", "#A0A0A0"],
     "TEXT_LINK": ["#00B0FF", "#00B0FF"],
-
     "INTERACTIVE_NORMAL": ["#C0C0C0", "#C0C0C0"],
     "INTERACTIVE_HOVER": ["#FFFFFF", "#FFFFFF"],
-    "INTERACTIVE_ACTIVE": ["#FFFFFF", "#FFFFFF"],
-
-    "CHANNELTEXTAREA_BACKGROUND": ["#000000", "#000000"]
+    "INTERACTIVE_ACTIVE": ["#FFFFFF", "#FFFFFF"]
   },
   "rawColors": {
     "PRIMARY_100": "#FFFFFF",
@@ -49,12 +40,10 @@
     "PRIMARY_700": "#202020",
     "PRIMARY_800": "#101010",
     "PRIMARY_900": "#000000",
-
     "BLACK": "#000000",
     "BRAND_500": "#000000",
     "BACKGROUND_MENTIONED": "#1A0000",
     "BACKGROUND_MODIFIER_ACCENT": "#000000",
-
     "RED_400": "#FF5555",
     "RED_500": "#FF4444"
   },
