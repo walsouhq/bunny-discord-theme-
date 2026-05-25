@@ -1,43 +1,46 @@
 {
-  "name": "Vixtra AMOLED",
+  "name": "Vixtra True Black",
   "author": "ChatGPT",
-  "description": "Pure black Vixtra with warmth background",
+  "description": "True AMOLED black with working background",
   "spec": 2,
 
   "semanticColors": {
-    "BACKGROUND_PRIMARY": ["#00000000", "#00000000"],
-    "BACKGROUND_SECONDARY": ["#00000000", "#00000000"],
-    "BACKGROUND_SECONDARY_ALT": ["#00000000", "#00000000"],
-    "BACKGROUND_TERTIARY": ["#00000000", "#00000000"],
-    "BACKGROUND_ACCENT": ["#00000000", "#00000000"],
-    "BACKGROUND_FLOATING": ["#000000CC", "#000000CC"],
+    "BACKGROUND_PRIMARY": ["#000000", "#000000"],
+    "BACKGROUND_SECONDARY": ["#000000", "#000000"],
+    "BACKGROUND_SECONDARY_ALT": ["#000000", "#000000"],
+    "BACKGROUND_TERTIARY": ["#000000", "#000000"],
+    "BACKGROUND_ACCENT": ["#000000", "#000000"],
+    "BACKGROUND_FLOATING": ["#000000", "#000000"],
 
-    "CHAT_BACKGROUND": ["#00000000", "#00000000"],
-    "CHANNELTEXTAREA_BACKGROUND": ["#000000CC", "#000000CC"],
+    "CHAT_BACKGROUND": ["#000000", "#000000"],
+    "CHANNELTEXTAREA_BACKGROUND": ["#000000", "#000000"],
 
-    "HEADER_PRIMARY": ["#FFFFFF", "#FFFFFF"],
-    "HEADER_SECONDARY": ["#A0A0A0", "#A0A0A0"],
+    "HEADER_PRIMARY": ["#D0D0D0", "#D0D0D0"],
+    "HEADER_SECONDARY": ["#7A7A7A", "#7A7A7A"],
 
-    "TEXT_NORMAL": ["#B5B5B5", "#B5B5B5"],
-    "TEXT_MUTED": ["#707070", "#707070"],
+    "TEXT_NORMAL": ["#9A9A9A", "#9A9A9A"],
+    "TEXT_MUTED": ["#5A5A5A", "#5A5A5A"],
 
-    "INTERACTIVE_NORMAL": ["#909090", "#909090"],
+    "INTERACTIVE_NORMAL": ["#8A8A8A", "#8A8A8A"],
     "INTERACTIVE_HOVER": ["#B0B0B0", "#B0B0B0"],
-    "INTERACTIVE_ACTIVE": ["#FFFFFF", "#FFFFFF"]
+    "INTERACTIVE_ACTIVE": ["#FFFFFF", "#FFFFFF"],
+
+    "BRAND_500": ["#000000", "#000000"]
   },
 
   "rawColors": {
-    "PRIMARY_100": "#FFFFFF",
-    "PRIMARY_200": "#D0D0D0",
-    "PRIMARY_300": "#B0B0B0",
-    "PRIMARY_400": "#909090",
-    "PRIMARY_500": "#707070",
-    "PRIMARY_600": "#505050",
-    "PRIMARY_700": "#303030",
+    "PRIMARY_100": "#E0E0E0",
+    "PRIMARY_200": "#C0C0C0",
+    "PRIMARY_300": "#A0A0A0",
+    "PRIMARY_400": "#808080",
+    "PRIMARY_500": "#606060",
+    "PRIMARY_600": "#404040",
+    "PRIMARY_700": "#202020",
     "PRIMARY_800": "#101010",
     "PRIMARY_900": "#000000",
 
     "BRAND_500": "#000000",
+
     "RED_400": "#FF5555",
     "RED_500": "#FF4444"
   },
@@ -45,6 +48,10 @@
   "background": {
     "url": "https://i.ibb.co/xMBLPFc/warmth.png",
     "blur": 0,
-    "alpha": 1
+    "alpha": 0.22
+  },
+
+  "fonts": {
+    "normal": "gg sans"
   }
 }
