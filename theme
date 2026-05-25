@@ -1,6 +1,6 @@
 {
   "name": "Vixtra Pitch Black",
-  "description": "Full black theme - Bottom bar fixed",
+  "description": "Full black theme - No background image",
   "authors": [
     {
       "name": "Taki_Shiwa, edited by z0nyy, converted to black by Grok",
@@ -34,7 +34,7 @@
     "CARD_SECONDARY_BG": ["#000000", "#000000", "#000000"],
     "CHANNELS_DEFAULT": ["#AAAAAA", "#AAAAAA", "#AAAAAA"],
     "CHANNEL_ICON": ["#AAAAAA", "#AAAAAA", "#AAAAAA"],
-    "CHAT_BACKGROUND": ["transparent", "transparent", "transparent"],
+    "CHAT_BACKGROUND": ["#000000", "#000000", "#000000"],
     "CHANNEL_TEXT_AREA_PLACEHOLDER": ["#BBBBBB", "#BBBBBB", "#BBBBBB"],
     "CHANNELTEXTAREA_BACKGROUND": ["#000000", "#000000", "#000000"],
     "DEPRECATED_CARD_BG": ["#000000", "#000000", "#000000"],
@@ -127,9 +127,6 @@
     "RED_400": "#FF5555",
     "WHITE_500": "#E0E0E0"
   },
-  "background": {
-    "url": "https://i.ibb.co/xMBLPFc/warmth.png",
-    "alpha": 0.82
-  },
+  "background": null,
   "spec": 2
 }
